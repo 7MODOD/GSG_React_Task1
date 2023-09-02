@@ -1,0 +1,16 @@
+.myBtn{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 12px 28px;
+    font-size: medium;
+    box-shadow: 5px 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.myBtn:hover{
+    background-color: aliceblue;
+    color: red;
+}

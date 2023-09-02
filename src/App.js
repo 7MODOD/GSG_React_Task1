@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import PageHeaderComponent from './Components/PageHeaderComponent/PageHeaderComponent';
+import PostGroupComponent from './Components/PostGroupComponent/PostGroupComponent';
+import ButtonComponent from './Components/ButtonComponent/ButtonComponent';
+import ButtonGroupComponent from './Components/ButtonGroupComponent/ButtonGroupComponent';
+import MyBodyComponent from './Components/MyBodyComponent/MyBodyComponent';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   return ( <div>
+    <PageHeaderComponent></PageHeaderComponent>
+    <MyBodyComponent></MyBodyComponent>
+    
     </div>
+  
   );
 }
 

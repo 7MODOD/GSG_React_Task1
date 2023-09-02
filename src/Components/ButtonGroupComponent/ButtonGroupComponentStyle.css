@@ -1,0 +1,10 @@
+.myBodyBtn{
+    flex: 1;
+    padding: 20px;
+}
+
+.myBtnGroup{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10%;
+}

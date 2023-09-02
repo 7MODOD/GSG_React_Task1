@@ -1,0 +1,9 @@
+.myBodyPost{
+    flex: 2;
+    padding: 20px;
+}
+.myPostGroup{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10%;
+}
